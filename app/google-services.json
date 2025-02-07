@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "563944365723",
-    "project_id": "microsotautentication",
-    "storage_bucket": "microsotautentication.firebasestorage.app"
+    "project_number": "330985250004",
+    "project_id": "fir-a9344",
+    "storage_bucket": "fir-a9344.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:563944365723:android:fd9aee6dea04ffa6cdb03e",
+        "mobilesdk_app_id": "1:330985250004:android:68913916ea242c789aaf41",
         "android_client_info": {
           "package_name": "com.example.autemticacionfirebase"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAQ_fBHXlwsUKGuboNwqlAiQhHXttyMkgU"
+          "current_key": "AIzaSyANbdOjwMAEHyOyfjMWOWp2JWsshuA02hI"
         }
       ],
       "services": {
