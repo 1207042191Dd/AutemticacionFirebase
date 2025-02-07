@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Título: "Inicio de sesión" -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio de sesión"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <!-- Campo para el correo -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="40dp"
+        android:padding="12dp"
+         />
+
+    <!-- Campo para la contraseña -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:layout_below="@id/etEmail"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"
+         />
+
+    <!-- Botón para iniciar sesión con Microsoft -->
+    <Button
+        android:id="@+id/btnLoginMicrosoft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesión con Microsoft"
+        android:drawableLeft="@drawable/ic_microsoft"
+        android:drawablePadding="8dp"
+        android:layout_below="@id/etPassword"
+        android:layout_marginTop="30dp"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:background="@color/microsoft_blue" />
+
+</RelativeLayout>
