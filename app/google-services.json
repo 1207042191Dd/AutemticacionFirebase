@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "330985250004",
-    "project_id": "fir-a9344",
-    "storage_bucket": "fir-a9344.firebasestorage.app"
+    "project_number": "89068538596",
+    "project_id": "fir-98eae",
+    "storage_bucket": "fir-98eae.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:330985250004:android:68913916ea242c789aaf41",
+        "mobilesdk_app_id": "1:89068538596:android:860fd0223241e5f5713af1",
         "android_client_info": {
           "package_name": "com.example.autemticacionfirebase"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyANbdOjwMAEHyOyfjMWOWp2JWsshuA02hI"
+          "current_key": "AIzaSyBFE373kdNpzs_H3HetvR32UQ0Yi8PHn_s"
         }
       ],
       "services": {
